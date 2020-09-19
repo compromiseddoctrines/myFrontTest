@@ -39,7 +39,7 @@ function getCity(clicked_id){
     displayInput.value = clicked_id;
 }
 
-//Modal Functionality
+// Global Modal Functionality
 
 (function() {
 
