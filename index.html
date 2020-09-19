@@ -8,14 +8,215 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css">
 
-    <title>Hello, world!</title>
+    <title>Legal Match</title>
   </head>
   <body>
-      <div class="container">
-          <div class="row">
-            <h1>Hello, world!</h1>
+      <!--Start of Header -->
+      <header>
+          <div class="container">
+              <div class="row">
+                <div class="col-6">
+                    <img src="img/header-logo.png" class="header-logo" alt="">
+                  </div>
+                  <div class="col-6">
+                    <p class="header-features">
+                        <img src="img/check.jpg" alt="">
+                        No fee to present your case
+                    </p>
+                    <p class="header-features">
+                        <img src="img/check.jpg" alt="">
+                        Choose from lawyers in your area
+                    </p>
+                    <p class="header-features">
+                        <img src="img/check.jpg" alt="">
+                        A 100% confidential service
+                    </p>
+                  </div>
+              </div>
+          </div>
+      </header>
+      <!-- End of Header -->
+      <!-- Start of Body -->
+      <div class="bg-blue">
+          <div class="container">
+              <div class="row">
+                <div class="col-8">
+                    <h1 id="header-banner-title">Find a Lawyer for your legal Issue</h1>
+                    <h2 id="header-banner-subtitle">Fast, Free and Confidential</h2>
+                </div>
+              </div>
+              <div class="row">
+                  <div class="col-6">
+                      <div class="row">
+                        <div class="col-12">
+                            <label class="sr-only" for="zip-code-input">Enter Zip Code or City:</label>
+                            <div class="input-group mb-2">
+                                <div class="input-group-prepend">
+                                    <div class="input-group-text">
+                                        <span class="badge badge-pill badge-warning">1</span>
+                                    </div>
+                                </div>
+                                <input type="text" class="form-control form-control-lg" id="zip-code-input" placeholder="Does not have to be where you live">
+                            </div>
+                          </div>
+                          <div class="col-12">
+                            <label class="sr-only" for="category-select">Choose a category:</label>
+                            <div class="input-group mb-2">
+                                <div class="input-group-prepend">
+                                    <div class="input-group-text">
+                                        <span class="badge badge-pill badge-warning">2</span>
+                                    </div>
+                                </div>
+                                <select class="form-control form-control-lg" id="category-select">
+                                    <option>Large select</option>
+                                </select>
+                            </div>
+                          </div>
+                          <div class="col-12 text-center">
+                            <p id="unfound-category">
+                                Can't find your category?
+                                <a href="#">
+                                    Click Here
+                                </a>.
+                            </p>
+                          </div>
+                      </div>
+                  </div>
+                  <!-- End of Form -->
+                  <!-- Start of Testimonials -->
+                  <div class="col-6">
+                    <p id="testi-title-home">
+                        Clients review LegalMatch Lawyers
+                    </p>
+                    <!-- Start of Mitchell -->
+                    <div class="col-12 testi-card row">
+                        <div class="col-3 avatar">
+                            <img src="img/mitchell.png">
+                            <p class="avatar-name">Mitchell M.</p>
+                            <p class="avatar-address">Cherry Hill, NJ</p>
+                        </div>
+                        <div class="col-9 testi-comments">
+                            <p class="testi-jd">
+                                Family Law
+                                <span class="star-on">&#9733;</span>
+                                <span class="star-on">&#9733;</span>
+                                <span class="star-on">&#9733;</span>
+                                <span class="star-on">&#9733;</span>
+                                <span class="star-on">&#9733;</span>
+                            </p>
+                            <p class="testi-details">
+                                lorem ipsum dolor sit amet, consectur adipising elit, sed sed do euismod tempor incidudnt ut labore et
+                            </p>
+                            <div class="col-12 text-right">
+                                <a href="#" class="home-read-review">
+                                    Read Review
+                                    <img src="img/review.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <hr class="divider-testi">
+                    </div>
+                    <!-- Start of Joel -->
+                    <div class="col-12 testi-card row">
+                        <div class="col-3 avatar">
+                            <img src="img/joel.png">
+                            <p class="avatar-name">Joel C.</p>
+                            <p class="avatar-address">Little Rock, AK</p>
+                        </div>
+                        <div class="col-9 testi-comments">
+                            <p class="testi-jd">
+                                Job & Employment Law
+                                <span class="star-on">&#9733;</span>
+                                <span class="star-on">&#9733;</span>
+                                <span class="star-on">&#9733;</span>
+                                <span class="star-on">&#9733;</span>
+                                <span class="star-on">&#9733;</span>
+                            </p>
+                            <p class="testi-details">
+                                lorem ipsum dolor sit amet, consectur adipising elit, sed sed do euismod tempor incidudnt ut labore et
+                            </p>
+                            <div class="col-12 text-right">
+                                <a href="#" class="home-read-review">
+                                    Read Review
+                                    <img src="img/review.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <hr class="divider-testi">
+                    </div>
+                    <!-- Start of Brigida -->
+                    <div class="col-12 testi-card row">
+                        <div class="col-3 avatar">
+                            <img src="img/brigida.png">
+                            <p class="avatar-name">Brigida R.</p>
+                            <p class="avatar-address">Dallas, TX</p>
+                        </div>
+                        <div class="col-9 testi-comments">
+                            <p class="testi-jd">
+                                Family Law
+                                <span class="star-on">&#9733;</span>
+                                <span class="star-on">&#9733;</span>
+                                <span class="star-on">&#9733;</span>
+                                <span class="star-on">&#9733;</span>
+                                <span class="star-on">&#9733;</span>
+                            </p>
+                            <p class="testi-details">
+                                lorem ipsum dolor sit amet, consectur adipising elit, sed sed do euismod tempor incidudnt ut labore et
+                            </p>
+                            <div class="col-12 text-right">
+                                <a href="#" class="home-read-review">
+                                    Read Review
+                                    <img src="img/review.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <hr class="divider-testi">
+                    </div>
+                  </div>
+              </div>
           </div>
       </div>
+      <!-- End of Content Body -->
+      <footer>
+          <div class="container">
+              <div class="row">
+                  <div class="col-3">
+                      <img src="img/footer-logo.png" alt="" id="footer-logo">
+                  </div>
+                  <div class="col-6">
+                      <ul class="footer-links">
+                        <li>
+                            <a href="#">
+                                User Agreement
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Privacy Policy
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Site Map
+                            </a>
+                        </li>
+                      </ul>
+                      <div class="footer-trademarks">
+                          <p>Copyright 1999-2016 LegalMatch. All rights reserved. LegalMatch*.</p>
+                          <p>the LegalMatch logo, and the tradedress are trademarks of LegalMatch. Patents Pending</p>
+                      </div>
+                  </div>
+                  <div class="col-3">
+                      <img src="img/truste.png" alt="" class="footer-cert">
+                      <br>
+                      <img src="img/bbb.png" alt="" class="footer-cert">
+                  </div>
+                  <div class="col-12">
+                      <hr class="footer-hr">
+                  </div>
+              </div>
+          </div>
+      </footer>
 
   </body>
 </html>
