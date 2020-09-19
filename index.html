@@ -60,7 +60,16 @@
                                         <span class="badge badge-pill badge-warning">1</span>
                                     </div>
                                 </div>
-                                <input type="text" class="form-control form-control-lg" id="zip-code-input" placeholder="Does not have to be where you live">
+                                <input type="text" class="form-control form-control-lg" id="zip-code-input" onkeyup="onCitySelect()" placeholder="Does not have to be where you live">
+                                <ul id="city-zip-hidden">
+                                    <li><a href="#" onClick="getCity(this.textContent)">Nowheresville 0, XX 00000</a></li>
+                                    <li><a href="#" onClick="getCity(this.textContent)">Nowheresville 1, XX 00000</a></li>
+                                    <li><a href="#" onClick="getCity(this.textContent)">Nowheresville 2, XX 00000</a></li>
+                                    <li><a href="#" onClick="getCity(this.textContent)">Tango</a></li>
+                                    <li><a href="#" onClick="getCity(this.textContent)">Alpha</a></li>
+                                    <li><a href="#" onClick="getCity(this.textContent)">Jon</a></li>
+                                    <li><a href="#" onClick="getCity(this.textContent)">Mateo</a></li>
+                                  </ul>
                             </div>
                           </div>
                           <div class="col-12">
@@ -226,5 +235,7 @@
               </div>
           </div>
       </footer>
+
+      <script type="text/javascript" src="main.js"></script>
   </body>
 </html>
