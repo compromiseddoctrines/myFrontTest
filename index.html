@@ -81,7 +81,21 @@
                                     </div>
                                 </div>
                                 <select class="form-control form-control-lg" id="category-select">
-                                    <option>Large select</option>
+                                    <option>Click to choose a legal category</option>
+                                    <option href="#jsModal" class="jsModalTrigger" id="popup"> 
+                                      Family
+                                    </option>
+                                    <option>Criminal Defense</option>
+                                    <option>Business</option>
+                                    <option>Personal Injury</option>
+                                    <option>Bankcruptcy & Finances</option>
+                                    <option>Product & Services</option>
+                                    <option>Employment</option>
+                                    <option>Real Estate</option>
+                                    <option>Immigration</option>
+                                    <option>Wills, Trusts & Estates</option>
+                                    <option>Government</option>
+                                    <option>Intellectual Property</option>
                                 </select>
                             </div>
                           </div>
@@ -121,7 +135,7 @@
                                 lorem ipsum dolor sit amet, consectur adipising elit, sed sed do euismod tempor incidudnt ut labore et
                             </p>
                             <div class="col-12 text-right">
-                                <a href="#" class="home-read-review">
+                                <a href="#jsModal" class="home-read-review jsModalTrigger">
                                     Read Review
                                     <img src="img/review.png" alt="">
                                 </a>
@@ -151,7 +165,7 @@
                                 lorem ipsum dolor sit amet, consectur adipising elit, sed sed do euismod tempor incidudnt ut labore et
                             </p>
                             <div class="col-12 text-right">
-                                <a href="#" class="home-read-review">
+                                <a href="#jsModal" class="home-read-review jsModalTrigger">
                                     Read Review
                                     <img src="img/review.png" alt="">
                                 </a>
@@ -181,7 +195,7 @@
                                 lorem ipsum dolor sit amet, consectur adipising elit, sed sed do euismod tempor incidudnt ut labore et
                             </p>
                             <div class="col-12 text-right">
-                                <a href="#" class="home-read-review">
+                                <a href="#jsModal" class="home-read-review jsModalTrigger">
                                     Read Review
                                     <img src="img/review.png" alt="">
                                 </a>
@@ -236,6 +250,15 @@
           </div>
       </footer>
 
+      <!-- Modal -->
+      <div id="jsModal" class="modal_pop">
+        <div class="modal_overlay jsOverlay"></div>
+        <div class="modal_container">
+          <p>Modal window text</p>
+          <button class="modal_close jsModalClose">&#10005;</button>
+        </div>
+      </div>
+      <br>
       <script type="text/javascript" src="main.js"></script>
   </body>
 </html>
