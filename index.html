@@ -8,6 +8,8 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css">
 
+    <link rel="stylesheet" href="style.css">
+
     <title>Legal Match</title>
   </head>
   <body>
@@ -16,9 +18,11 @@
           <div class="container">
               <div class="row">
                 <div class="col-6">
-                    <img src="img/header-logo.png" class="header-logo" alt="">
+                    <a href="#">
+                        <img src="img/header-logo.png" class="header-logo" alt="">
+                    </a>
                   </div>
-                  <div class="col-6">
+                  <div class="col-3 offset-3 mt-2">
                     <p class="header-features">
                         <img src="img/check.jpg" alt="">
                         No fee to present your case
@@ -41,7 +45,7 @@
           <div class="container">
               <div class="row">
                 <div class="col-8">
-                    <h1 id="header-banner-title">Find a Lawyer for your legal Issue</h1>
+                    <h1 id="header-banner-title">Find a Lawyer for your Legal Issue</h1>
                     <h2 id="header-banner-subtitle">Fast, Free and Confidential</h2>
                 </div>
               </div>
@@ -49,7 +53,7 @@
                   <div class="col-6">
                       <div class="row">
                         <div class="col-12">
-                            <label class="sr-only" for="zip-code-input">Enter Zip Code or City:</label>
+                            <label class="home-label-form" for="zip-code-input">Enter Zip Code or City:</label>
                             <div class="input-group mb-2">
                                 <div class="input-group-prepend">
                                     <div class="input-group-text">
@@ -60,7 +64,7 @@
                             </div>
                           </div>
                           <div class="col-12">
-                            <label class="sr-only" for="category-select">Choose a category:</label>
+                            <label class="home-label-form" for="category-select">Choose a category:</label>
                             <div class="input-group mb-2">
                                 <div class="input-group-prepend">
                                     <div class="input-group-text">
@@ -76,15 +80,15 @@
                             <p id="unfound-category">
                                 Can't find your category?
                                 <a href="#">
-                                    Click Here
-                                </a>.
+                                    Click Here.
+                                </a>
                             </p>
                           </div>
                       </div>
                   </div>
                   <!-- End of Form -->
                   <!-- Start of Testimonials -->
-                  <div class="col-6">
+                  <div class="col-5 offset-1">
                     <p id="testi-title-home">
                         Clients review LegalMatch Lawyers
                     </p>
@@ -114,7 +118,9 @@
                                 </a>
                             </div>
                         </div>
-                        <hr class="divider-testi">
+                        <div class="col-12">
+                            <hr class="divider-testi">
+                        </div>
                     </div>
                     <!-- Start of Joel -->
                     <div class="col-12 testi-card row">
@@ -142,7 +148,9 @@
                                 </a>
                             </div>
                         </div>
-                        <hr class="divider-testi">
+                        <div class="col-12">
+                            <hr class="divider-testi">
+                        </div>
                     </div>
                     <!-- Start of Brigida -->
                     <div class="col-12 testi-card row">
@@ -170,7 +178,6 @@
                                 </a>
                             </div>
                         </div>
-                        <hr class="divider-testi">
                     </div>
                   </div>
               </div>
@@ -181,21 +188,23 @@
           <div class="container">
               <div class="row">
                   <div class="col-3">
-                      <img src="img/footer-logo.png" alt="" id="footer-logo">
+                      <a href="#">
+                        <img src="img/footer-logo.png" alt="" id="footer-logo">
+                      </a>
                   </div>
-                  <div class="col-6">
-                      <ul class="footer-links">
-                        <li>
+                  <div class="col-6 text-center">
+                      <ul class="footer-links list-inline">
+                        <li class="list-inline-item">
                             <a href="#">
                                 User Agreement
                             </a>
                         </li>
-                        <li>
+                        <li class="list-inline-item">
                             <a href="#">
                                 Privacy Policy
                             </a>
                         </li>
-                        <li>
+                        <li class="list-inline-item">
                             <a href="#">
                                 Site Map
                             </a>
@@ -206,7 +215,7 @@
                           <p>the LegalMatch logo, and the tradedress are trademarks of LegalMatch. Patents Pending</p>
                       </div>
                   </div>
-                  <div class="col-3">
+                  <div class="col-3 text-right mt-3">
                       <img src="img/truste.png" alt="" class="footer-cert">
                       <br>
                       <img src="img/bbb.png" alt="" class="footer-cert">
@@ -217,6 +226,5 @@
               </div>
           </div>
       </footer>
-
   </body>
 </html>
